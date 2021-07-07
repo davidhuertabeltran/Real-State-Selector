@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+    h1 {
+        text-align: center;
+        font-size: 4em;
+        padding: 2% 0 1% 0;
+        color: rgb(158, 157, 157);
+    }
+
+    .content {
+        max-width: 100%;
+        margin: 0 1em;
+        border-top: 1px solid lightgray;
+    
+        .list-houses {
+            display: flex;
+            overflow-x: auto;
+            margin: 2.5em;
+
+            .house-thumbnail {
+                margin-right: 2px;
+                cursor: pointer;
+
+                img {
+                    max-width: 10rem;
+                }
+                p {
+                    font-size: 0.8rem;
+                }
+            }
+            
+        }
+
+        .house-comparison {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            height: 100%;
+            
+            
+            .house {
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                padding: 1em;
+                width: 380px;
+
+                .img-container {
+                    width: 350px;
+                    height: 250px;
+                }
+
+                & > div {
+                    line-height: 2em;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 1.2em;
+                }
+                
+                .price p:first-child,
+                .city p:first-child,
+                .floor-area p:first-child,
+                .land-area p:first-child {
+                    font-weight: bold;
+                }
+
+                .company-name {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 25px 0;
+                    img {
+                        width: 20%;
+                        height: auto;
+                    }
+                }
+                .green {
+                    background-color: rgb(125, 231, 125);
+                }
+                .red {
+                    background-color: rgb(230, 132, 136);
+                }
+            }
+            .house-1 {
+                margin-right: 0.5rem;
+            }
+            .house-2 {
+                margin-left: 0.5rem;
+            }
+
+            
+        }
+    }
+    
+}
+
