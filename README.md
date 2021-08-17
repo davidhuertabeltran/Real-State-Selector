@@ -1,7 +1,6 @@
-# mock-interview-klikem
-This is the repository with the task for the mockup interview for the Frontend Developer position
+Real State Selector. Using only HTML, CSS and JavaScript. You can watch the live version here: https://davidhuertabeltran.github.io/Real-State-Selector/
 
-In order to run the website, you need to:
+Or if you want, you can:
 
 1. clone the repository
 
