@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif; }
+  body h1 {
+    text-align: center;
+    font-size: 4em;
+    padding: 2% 0 1% 0;
+    color: #9e9d9d; }
+  body .content {
+    max-width: 100%;
+    margin: 0 1em;
+    border-top: 1px solid lightgray; }
+    body .content .list-houses {
+      display: flex;
+      overflow-x: auto;
+      margin: 2.5em; }
+      body .content .list-houses .house-thumbnail {
+        margin-right: 2px;
+        cursor: pointer; }
+        body .content .list-houses .house-thumbnail img {
+          max-width: 10rem; }
+        body .content .list-houses .house-thumbnail p {
+          font-size: 0.8rem; }
+    body .content .house-comparison {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      height: 100%; }
+      body .content .house-comparison .house {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 1em;
+        width: 380px; }
+        body .content .house-comparison .house .img-container {
+          width: 350px;
+          height: 250px; }
+        body .content .house-comparison .house > div {
+          line-height: 2em;
+          display: flex;
+          justify-content: space-between;
+          font-size: 1.2em; }
+        body .content .house-comparison .house .price p:first-child,
+        body .content .house-comparison .house .city p:first-child,
+        body .content .house-comparison .house .floor-area p:first-child,
+        body .content .house-comparison .house .land-area p:first-child {
+          font-weight: bold; }
+        body .content .house-comparison .house .company-name {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 25px 0; }
+          body .content .house-comparison .house .company-name img {
+            width: 20%;
+            height: auto; }
+        body .content .house-comparison .house .green {
+          background-color: #7de77d; }
+        body .content .house-comparison .house .red {
+          background-color: #e68488; }
+      body .content .house-comparison .house-1 {
+        margin-right: 0.5rem; }
+      body .content .house-comparison .house-2 {
+        margin-left: 0.5rem; }
+
+/*# sourceMappingURL=style.css.map */
